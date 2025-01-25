@@ -32,7 +32,7 @@ Failure: expected (equal? (bacon lettuce tomato) (bacon lettuce))
 
 The `assert-` functions are themselves _also_ written in Scheme (and executed by
 the interpreter defined in [_scheme.js_](./scheme.js)).
-They're defined in [_tests/\_lib.scm_](./tests/lib.scm).
+They're defined in [_tests/\_lib.scm_](./tests/_lib.scm).
 As a result, it's easy to add new assertion functions for common cases.
 For instance, if we find ourselves often asserting that a value is true:
 
